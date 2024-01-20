@@ -1,0 +1,135 @@
+.header {
+    position: fixed;
+    top: 50px;
+    left: 150px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--backGroundHeader);
+    padding: 0 30px 0 10px;
+    border: none;
+    border-radius: 15px;
+    gap: 90px;
+    z-index: 9;
+}
+.header h1 {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.header h1 span {
+    display: block;
+    color: rgb(255, 161, 176);
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+}
+.header .navigate {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: flex-start;
+    flex: 1;
+}
+.header .navigate a {
+    padding: 30px 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--textSub);
+    font-family: "Noto Sans", sans-serif;
+    border: 5px solid transparent;
+}
+.header .navigate a:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-bottom: 5px solid var(--primary);
+    border-radius: 10px;
+}
+.header .headerLogin .btnLogin {
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    padding: 20px 30px;
+    background-color: #000;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header .headerLogin .btnLogin:hover {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.header .headerLogout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.header .headerLogout .headerCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+.header .headerLogout .headerCart .iconCart {
+    font-size: 50px;
+    color: var(--primary);
+    cursor: pointer;
+}
+.header .headerLogout .headerCart .iconCart:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+.header .headerLogout .headerCart .textCart {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .headerLogout .headerCart .textCart p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.header .headerLogout .headerCart .textCart .headerSeparate {
+    display: inline-block;
+    width: 2px;
+    height: 25px;
+    background-color: #fff;
+}
+.header .headerLogout .headerProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+.header .headerLogout .headerProfile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.header .headerLogout .headerProfile p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header .headerLogout .headerProfile .iconSup {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}

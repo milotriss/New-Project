@@ -1,0 +1,20 @@
+.modalEventOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 8;
+  display: none;
+}
+.modalEventOverlay .modalEvent {
+  position: absolute;
+  right: 10px;
+  top: 25%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  width: 900px;
+  height: 700px;
+  animation: slide-left 2s ease-in-out both;
+  padding: 20px;
+}
